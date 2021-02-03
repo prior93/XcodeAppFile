@@ -13,6 +13,8 @@
 		8328F76725C9B3B000781502 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8328F76525C9B3B000781502 /* Main.storyboard */; };
 		8328F76925C9B3B100781502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8328F76825C9B3B100781502 /* Assets.xcassets */; };
 		8328F76C25C9B3B100781502 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8328F76A25C9B3B100781502 /* LaunchScreen.storyboard */; };
+		8328F77925C9E4B900781502 /* AppInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8328F77825C9E4B900781502 /* AppInfoViewController.swift */; };
+		8328F77C25C9E54300781502 /* ApperanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8328F77B25C9E54300781502 /* ApperanceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8328F76825C9B3B100781502 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8328F76B25C9B3B100781502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8328F76D25C9B3B100781502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8328F77825C9E4B900781502 /* AppInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoViewController.swift; sourceTree = "<group>"; };
+		8328F77B25C9E54300781502 /* ApperanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ApperanceViewController.swift; path = ../../ApperanceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				8328F75F25C9B3B000781502 /* AppDelegate.swift */,
 				8328F76125C9B3B000781502 /* SceneDelegate.swift */,
 				8328F76325C9B3B000781502 /* ViewController.swift */,
+				8328F77825C9E4B900781502 /* AppInfoViewController.swift */,
 				8328F76525C9B3B000781502 /* Main.storyboard */,
+				8328F77B25C9E54300781502 /* ApperanceViewController.swift */,
 				8328F76825C9B3B100781502 /* Assets.xcassets */,
 				8328F76A25C9B3B100781502 /* LaunchScreen.storyboard */,
 				8328F76D25C9B3B100781502 /* Info.plist */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8328F77C25C9E54300781502 /* ApperanceViewController.swift in Sources */,
 				8328F76425C9B3B000781502 /* ViewController.swift in Sources */,
 				8328F76025C9B3B000781502 /* AppDelegate.swift in Sources */,
+				8328F77925C9E4B900781502 /* AppInfoViewController.swift in Sources */,
 				8328F76225C9B3B000781502 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lv.accenture.bootcamps.DayFinderAdv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lv.accenture.bootcamps.DayFinderAdv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
